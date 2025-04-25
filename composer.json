@@ -1,5 +1,15 @@
 {
-  "name": "joedelfonte/medical-database",
-  "description": "A medical database for public awareness in Lipa City, Batangas.",
-  "require": {}
+    "name": "joedelfonte/medical-database",
+    "description": "Medical database for public awareness.",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }
